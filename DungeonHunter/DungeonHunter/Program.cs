@@ -6,6 +6,9 @@ namespace DungeonHunter
     {
         public static void Main(string[] args)
         {
+            Storyline storyline = new Storyline();
+            storyline.Story();
+
             Game game = new Game();
             game.GameLogic();
 
