@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Users\gecata\Desktop\GitHub\Dungeon-Hunter-ConsoleGame\Program.cs" Link="Program.cs" />
-  </ItemGroup>
-
 </Project>
