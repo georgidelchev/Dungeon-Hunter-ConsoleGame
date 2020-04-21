@@ -9,12 +9,14 @@ namespace DungeonHunter
     {
         public void Story()
         {
+            Console.CursorVisible = false;
+            Console.Write("                                            ");
             for (int i = 0; i < GameStatistics.hello.Length; i++)
             {
                 Console.Write($"{GameStatistics.hello[i]}");
-                Thread.Sleep(200);
+                Thread.Sleep(350);
             }
-            Thread.Sleep(300);
+            Thread.Sleep(500);
             Console.Clear();
 
             Console.WriteLine("         Hello traveller!");
@@ -29,7 +31,8 @@ namespace DungeonHunter
 
             Console.WriteLine($"Lets talk 'bout myself sir! " +
                 $"{Environment.NewLine}...and your mission of course! ");
-
+            Thread.Sleep(5000);
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(">> STORY: ");                                                                                           
             Console.WriteLine();                                                                                                       
@@ -53,6 +56,7 @@ namespace DungeonHunter
             Console.Clear();
 
             Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.CursorVisible = true;
         }
     }
 }
