@@ -18,10 +18,10 @@ namespace DungeonHunter
             Console.Clear();
 
             Console.WriteLine("         Hello traveller!");
-            Console.WriteLine("        [Maze Runner v1.0]");
+            Console.WriteLine("        [DungeonHunter v1.0]");
             Console.WriteLine($"{ Environment.NewLine}" +
                 $"Im Steve , nice to meet you, son :) ! " +
-                $"{Environment.NewLine}Welcome to the Maze Runner - " +
+                $"{Environment.NewLine}Welcome to the DungeonHunter 1.0 - " +
                 $"[{System.Environment.MachineName}]");
 
             Thread.Sleep(7000);
