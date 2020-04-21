@@ -36,14 +36,14 @@ namespace DungeonHunter
         "U","P", ", ", "C", "O", "N", "G", "R","A","T","S",};
 
         // PLAYER STATISTICS
-        public static double playerHealth;
-        public static double playerExp;
-        public static double playerLevel;
-        public static double playerCoins;
-        public static double playerAttack;
-        public static double playerDefence;
-        public static double damageDealt;
-        public static double damageTook;
+        public static double playerHealth = 100;
+        public static double playerExp = 0;
+        public static double playerLevel = 0;
+        public static double playerCoins = 50;
+        public static double playerAttack = 45;
+        public static double playerDefence = 25;
+        public static double damageDealt = 0;
+        public static double damageTook = 0;
 
         // ARMOR STATISTICS
         public static string currentHelmet;

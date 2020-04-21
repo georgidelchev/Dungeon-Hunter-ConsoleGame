@@ -28,13 +28,9 @@ namespace DungeonHunter
         public static int hiding;
         public static int dmgOrNot;
         public static double took;
-
-
+       
         public void GameLogic()
         {
-            GameStatistics.playerHealth = 12;
-            GameStatistics.playerCoins = 12;
-            GameStatistics.playerAttack = 12;
             while (GameStatistics.isAlive)
             {
                 // Increasing of rooms count:
@@ -43,8 +39,9 @@ namespace DungeonHunter
                 {
                     Shop shop = new Shop();
                     shop.ShopImplementation();
+                    Console.WriteLine();
                 }
-                Console.WriteLine();
+
                 Console.WriteLine($"#=# Room: {GameStatistics.roomsCount} #=#"); // message which room is it
 
                 typeOfTheRoom = new Random().Next(1, 10); // picking random room
