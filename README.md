@@ -1,2 +1,2 @@
 # Dungeon-Hunter-ConsoleGame
-Simple Console RPG Game.
+Simple RPG Console Game.
